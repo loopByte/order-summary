@@ -15,7 +15,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* outline: 1px dashed green; */
 }
 
 body {
@@ -132,4 +131,19 @@ body {
 }
 .summary__content__plan__change {
     margin-left: auto;
+}
+@media (max-width: 400px) {
+    body {
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: var(--fw-regular);
+        background: url("images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-color: var(--clr-primary-100);
+    }
+    .summary {
+        width: 100%;
+    }
+    .summary__content {
+        padding: 1rem;
+    }
 }
