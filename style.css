@@ -31,12 +31,12 @@ body {
 }
 
 /* button */
-.btn.btn {
+.btn {
     border: none;
     border-radius: .5rem;
     padding: 1rem;
     font-weight: var(--fw-bold);
-    box-shadow: 0 1rem 1rem var(--clr-primary-100);
+    box-shadow: 0rem 1rem 1.5rem 0rem var(--clr-primary-100);
     cursor: pointer;
 }
 .btn.primary {
