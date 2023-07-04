@@ -61,6 +61,9 @@ body {
 .btn.tertiary-anchor:is(:hover, :focus) {
     opacity: .8;
 }
+.btn.tertiary-anchor:is(:hover, :focus) {
+    text-decoration: none;
+}
 .btn.tertiary:is(:hover, :focus) {
     color: #000;
 }
